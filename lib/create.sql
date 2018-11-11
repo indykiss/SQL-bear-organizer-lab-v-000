@@ -1,5 +1,3 @@
-
-
 CREATE TABLE bears (
   id INTEGER primary key, 
   name TEXT, 
