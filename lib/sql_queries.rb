@@ -23,7 +23,7 @@ def selects_most_prominent_color_and_returns_with_count
 end
 
 def counts_number_of_bears_with_goofy_temperaments
-  "SELECT color, COUNT(*) FROM bears where color = 'dark brown';"
+  "SELECT temperament, COUNT(*) FROM bears where temperament = 'dark brown';"
 end
 
 def selects_bear_that_killed_Tim
